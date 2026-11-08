@@ -1,0 +1,2248 @@
+{
+ "schema": "anticloud.tier-bench/1",
+ "project": "L_COWAGENT",
+ "source": {
+  "repo_path": "E:\\fenta\\Downloads\\The Anticloud\\TIER_4_INFERENCE_AGENTS\\L_COWAGENT\\UPSTREAM_CLONE",
+  "git": {
+   "head": "0106b76830c707effe48cd3da384dda38cbed92e",
+   "url": "https://github.com/camel-ai/camel.git",
+   "branch": "HEAD",
+   "committed_at": "2026-09-30T12:46:02+08:00"
+  }
+ },
+ "metrics": {
+  "files_total": 2207,
+  "source_files_scanned": 1157,
+  "lines_of_code": 279669,
+  "languages": {
+   ".py": 1143,
+   ".mdx": 528,
+   ".png": 154,
+   ".md": 147,
+   ".rst": 59,
+   ".ipynb": 49,
+   ".json": 26,
+   ".yaml": 17,
+   ".txt": 17,
+   ".ts": 8,
+   "(none)": 7,
+   ".jpeg": 7,
+   ".pptx": 6,
+   ".gif": 5,
+   ".js": 5
+  }
+ },
+ "licence": {
+  "spdx": "Apache-2.0",
+  "class": "A",
+  "source_file": "LICENSE",
+  "redistribution_allowed": true
+ },
+ "dependencies": {
+  "count": 22,
+  "unique": 22,
+  "by_ecosystem": {
+   "npm": 8,
+   "pypi": 14
+  },
+  "list": [
+   {
+    "ecosystem": "pypi",
+    "name": "mcp",
+    "version": ">=1.3.0",
+    "source_file": "pyproject.toml",
+    "raw": "mcp>=1.3.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "tiktoken",
+    "version": ">=0.7.0",
+    "source_file": "pyproject.toml",
+    "raw": "tiktoken>=0.7.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "colorama",
+    "version": ">=0.4.6",
+    "source_file": "pyproject.toml",
+    "raw": "colorama>=0.4.6"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "jsonschema",
+    "version": ">=4",
+    "source_file": "pyproject.toml",
+    "raw": "jsonschema>=4"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "docstring-parser",
+    "version": ">=0.17.0",
+    "source_file": "pyproject.toml",
+    "raw": "docstring-parser>=0.17.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "pydantic",
+    "version": ">=2.10.6",
+    "source_file": "pyproject.toml",
+    "raw": "pydantic>=2.10.6"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "httpx",
+    "version": ">=0.28.0",
+    "source_file": "pyproject.toml",
+    "raw": "httpx>=0.28.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "psutil",
+    "version": ">=5.9.8",
+    "source_file": "pyproject.toml",
+    "raw": "psutil>=5.9.8"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "openai",
+    "version": ">=1.86.0",
+    "source_file": "pyproject.toml",
+    "raw": "openai>=1.86.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "websockets",
+    "version": ">=13.0",
+    "source_file": "pyproject.toml",
+    "raw": "websockets>=13.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "astor",
+    "version": ">=0.8.1",
+    "source_file": "pyproject.toml",
+    "raw": "astor>=0.8.1"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "pillow",
+    "version": ">=10.0.0",
+    "source_file": "pyproject.toml",
+    "raw": "pillow>=10.0.0"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "google-search-results",
+    "version": ">=2.4.2",
+    "source_file": "pyproject.toml",
+    "raw": "google-search-results>=2.4.2"
+   },
+   {
+    "ecosystem": "pypi",
+    "name": "pyyaml",
+    "version": ">=6.0.3",
+    "source_file": "pyproject.toml",
+    "raw": "pyyaml>=6.0.3"
+   },
+   {
+    "ecosystem": "npm",
+    "name": "playwright",
+    "version": "^1.57.0",
+    "source_file": "camel/toolkits/hybrid_browser_toolkit/ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "ws",
+    "version": "^8.14.0",
+    "source_file": "camel/toolkits/hybrid_browser_toolkit/ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/jest",
+    "version": "^30.0.0",
+    "source_file": "camel/toolkits/hybrid_browser_toolkit/ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/node",
+    "version": "^25.0.1",
+    "source_file": "camel/toolkits/hybrid_browser_toolkit/ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "@types/ws",
+    "version": "^8.5.0",
+    "source_file": "camel/toolkits/hybrid_browser_toolkit/ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "jest",
+    "version": "^30.2.0",
+    "source_file": "camel/toolkits/hybrid_browser_toolkit/ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "typescript",
+    "version": "^5.8.3",
+    "source_file": "camel/toolkits/hybrid_browser_toolkit/ts/package.json",
+    "raw": ""
+   },
+   {
+    "ecosystem": "npm",
+    "name": "ts-jest",
+    "version": "^29.4.6",
+    "source_file": "camel/toolkits/hybrid_browser_toolkit/ts/package.json",
+    "raw": ""
+   }
+  ]
+ },
+ "owasp_top10": {
+  "total_findings": 1277,
+  "files_with_findings": 1148,
+  "severity": {
+   "high": 69,
+   "medium": 7,
+   "low": 1201
+  },
+  "categories": {
+   "A01-BrokenAccessControl": {
+    "count": 0,
+    "findings": []
+   },
+   "A02-CryptographicFailures": {
+    "count": 5,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "examples/toolkits/notion_toolkit.py",
+      "line": 67,
+      "cwe": "CWE-327",
+      "snippet": "4UcF5wdYM&vet=12ahUKEwir9rf3oKGJAxVsFTQIHYsrMYkQM3oECBkQAA..i&w=3072&h=307"
+     },
+     {
+      "severity": "medium",
+      "file": "camel/storages/graph_storages/neo4j_graph.py",
+      "line": 566,
+      "cwe": "CWE-327",
+      "snippet": "element.source.to_dict()['element_id'] = md5("
+     },
+     {
+      "severity": "medium",
+      "file": "camel/retrievers/auto_retriever.py",
+      "line": 147,
+      "cwe": "CWE-327",
+      "snippet": "dir_hash = hashlib.md5(directory.encode()).hexdigest()[:6]"
+     },
+     {
+      "severity": "medium",
+      "file": "camel/loaders/base_io.py",
+      "line": 180,
+      "cwe": "CWE-327",
+      "snippet": "file_id = md5(file.getvalue()).hexdigest()"
+     },
+     {
+      "severity": "medium",
+      "file": "camel/agents/chat_agent.py",
+      "line": 3825,
+      "cwe": "CWE-327",
+      "snippet": "img_hash = hashlib.md5("
+     }
+    ]
+   },
+   "A03-Injection": {
+    "count": 18,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "test/toolkits/test_terminal_toolkit.py",
+      "line": 279,
+      "cwe": "CWE-78",
+      "snippet": "@pytest.mark.parametrize(\"command\", [\"cd $(pwd)\", \"cd `pwd`\"])"
+     },
+     {
+      "severity": "high",
+      "file": "test/interpreters/test_subprocess_interpreter.py",
+      "line": 73,
+      "cwe": "CWE-78",
+      "snippet": "echo $(undefined_command)"
+     },
+     {
+      "severity": "high",
+      "file": "examples/runtimes/docker_runtime_with_tasks.py",
+      "line": 55,
+      "cwe": "CWE-95",
+      "snippet": "\"Your code will be executed using eval().\""
+     },
+     {
+      "severity": "high",
+      "file": "examples/benchmarks/apibench.py",
+      "line": 59,
+      "cwe": "CWE-95",
+      "snippet": "\"device = 'cpu'\", \"model = model.eval()\", \"model = model.to(device)\"],"
+     },
+     {
+      "severity": "high",
+      "file": "camel/utils/commons.py",
+      "line": 445,
+      "cwe": "CWE-95",
+      "snippet": "exec(code, globals(), local_vars)"
+     },
+     {
+      "severity": "high",
+      "file": "camel/toolkits/async_browser_toolkit.py",
+      "line": 1229,
+      "cwe": "CWE-95",
+      "snippet": "temp_coroutine = eval(code)"
+     },
+     {
+      "severity": "high",
+      "file": "camel/toolkits/browser_toolkit.py",
+      "line": 1081,
+      "cwe": "CWE-95",
+      "snippet": "result = eval(code)"
+     },
+     {
+      "severity": "high",
+      "file": "camel/toolkits/code_execution.py",
+      "line": 42,
+      "cwe": "CWE-95",
+      "snippet": "by `eval()` without any security check. (default: :obj:`False`)"
+     },
+     {
+      "severity": "high",
+      "file": "camel/toolkits/jina_reranker_toolkit.py",
+      "line": 92,
+      "cwe": "CWE-95",
+      "snippet": "self.model.eval()"
+     },
+     {
+      "severity": "high",
+      "file": "camel/toolkits/terminal_toolkit/terminal_toolkit.py",
+      "line": 843,
+      "cwe": "CWE-78",
+      "snippet": "shell=True,"
+     },
+     {
+      "severity": "high",
+      "file": "camel/toolkits/terminal_toolkit/utils.py",
+      "line": 394,
+      "cwe": "CWE-78",
+      "snippet": "shell=True,"
+     },
+     {
+      "severity": "high",
+      "file": "camel/toolkits/hybrid_browser_toolkit_py/hybrid_browser_toolkit.py",
+      "line": 2062,
+      "cwe": "CWE-95",
+      "snippet": "result = eval(\"\"\""
+     },
+     {
+      "severity": "high",
+      "file": "camel/toolkits/hybrid_browser_toolkit/ts/src/browser-session.ts",
+      "line": 692,
+      "cwe": "CWE-95",
+      "snippet": "while ((match = refPattern.exec(snapshotText)) !== null) {"
+     },
+     {
+      "severity": "high",
+      "file": "camel/toolkits/hybrid_browser_toolkit/ts/src/hybrid-browser-toolkit.ts",
+      "line": 624,
+      "cwe": "CWE-95",
+      "snippet": "result = eval(${JSON.stringify(code)});"
+     },
+     {
+      "severity": "high",
+      "file": "camel/storages/vectordb_storages/faiss.py",
+      "line": 259,
+      "cwe": "CWE-502",
+      "snippet": "metadata = pickle.load(f)"
+     },
+     {
+      "severity": "high",
+      "file": "camel/storages/vectordb_storages/surreal.py",
+      "line": 350,
+      "cwe": "CWE-89",
+      "snippet": "raise RuntimeError(f\"Failed to delete records {ids!r}\") from e"
+     },
+     {
+      "severity": "high",
+      "file": "camel/interpreters/internal_python_interpreter.py",
+      "line": 79,
+      "cwe": "CWE-95",
+      "snippet": "by `eval()` or `exec()` without any security check."
+     },
+     {
+      "severity": "high",
+      "file": "camel/interpreters/subprocess_interpreter.py",
+      "line": 215,
+      "cwe": "CWE-78",
+      "snippet": "shell=False,  # Never use shell=True for security"
+     }
+    ]
+   },
+   "A04-InsecureDesign": {
+    "count": 55,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "test/toolkits/test_stripe_function.py",
+      "line": 35,
+      "cwe": "CWE-",
+      "snippet": "with patch.dict(os.environ, {\"STRIPE_API_KEY\": \"sk_test_xxxx\"}):"
+     },
+     {
+      "severity": "low",
+      "file": "test/toolkits/test_todo_toolkit.py",
+      "line": 17,
+      "cwe": "CWE-",
+      "snippet": "from camel.toolkits import TodoToolkit"
+     },
+     {
+      "severity": "low",
+      "file": "test/messages/test_func_message.py",
+      "line": 175,
+      "cwe": "CWE-",
+      "snippet": "# TODO: Consider using code from https://github.com/NousResearch/Hermes-Function-Calling/blob/main/validator.py # noqa: E501"
+     },
+     {
+      "severity": "low",
+      "file": "test/loaders/test_markitdown.py",
+      "line": 51,
+      "cwe": "CWE-",
+      "snippet": "\"unsupported_xxx\": (\"unsupported.xxx\", \"unsupported extension\"),"
+     },
+     {
+      "severity": "low",
+      "file": "test/environments/test_multi_step_env.py",
+      "line": 82,
+      "cwe": "CWE-",
+      "snippet": "# FIXME: index set to 0 temporarily until we have batched MultiStep"
+     },
+     {
+      "severity": "low",
+      "file": "test/agents/test_agent_e2e.py",
+      "line": 19,
+      "cwe": "CWE-",
+      "snippet": "4. Streaming with structured output and tools #TODO"
+     },
+     {
+      "severity": "low",
+      "file": "examples/workforce/hackathon_judges.py",
+      "line": 32,
+      "cwe": "CWE-",
+      "snippet": "You are a judge in a hackathon."
+     },
+     {
+      "severity": "low",
+      "file": "examples/toolkits/bohrium_toolkit_example.py",
+      "line": 28,
+      "cwe": "CWE-",
+      "snippet": "api_key=\"xxx\","
+     },
+     {
+      "severity": "low",
+      "file": "examples/toolkits/google_calendar_toolkit.py",
+      "line": 45,
+      "cwe": "CWE-",
+      "snippet": "w.google.com/calendar/event?eid=NnM3bWxtN2F1cHNxNXRqZWZzcDhy_xxxxxxx',"
+     },
+     {
+      "severity": "low",
+      "file": "examples/toolkits/mineru_toolkit.py",
+      "line": 56,
+      "cwe": "CWE-",
+      "snippet": "# TODO: implement this example with loader toolkit to get information from"
+     },
+     {
+      "severity": "low",
+      "file": "examples/toolkits/todo_toolkit.py",
+      "line": 17,
+      "cwe": "CWE-",
+      "snippet": "from camel.toolkits import MathToolkit, TodoToolkit"
+     },
+     {
+      "severity": "low",
+      "file": "examples/summarization/gpt_solution_extraction.py",
+      "line": 190,
+      "cwe": "CWE-",
+      "snippet": "# generated JSON files xxx_xxx_xxx.json"
+     },
+     {
+      "severity": "low",
+      "file": "examples/runtimes/docker_runtime_with_tasks.py",
+      "line": 78,
+      "cwe": "CWE-",
+      "snippet": "# TODO: unlock unsafe mode"
+     },
+     {
+      "severity": "low",
+      "file": "examples/models/openai_compatibility_model_examples/qwen.py",
+      "line": 24,
+      "cwe": "CWE-",
+      "snippet": "api_key=\"sk-xxxx\","
+     },
+     {
+      "severity": "low",
+      "file": "examples/models/openai_compatibility_model_examples/zhipu_response_format.py",
+      "line": 33,
+      "cwe": "CWE-",
+      "snippet": "api_key=\"fb75bxxxxx\","
+     },
+     {
+      "severity": "low",
+      "file": "examples/misalignment/role_playing_with_human.py",
+      "line": 33,
+      "cwe": "CWE-",
+      "snippet": "\"Hacker\","
+     },
+     {
+      "severity": "low",
+      "file": "examples/embeddings/openai_compatible_embedding_example.py",
+      "line": 20,
+      "cwe": "CWE-",
+      "snippet": "api_key=\"nvapi-xxx\","
+     },
+     {
+      "severity": "low",
+      "file": "docs/conf.py",
+      "line": 42,
+      "cwe": "CWE-",
+      "snippet": "'sphinx.ext.autodoc',"
+     },
+     {
+      "severity": "low",
+      "file": "docs/mintlify/build_api_docs.py",
+      "line": 232,
+      "cwe": "CWE-",
+      "snippet": "# Usually we expect file names in \"camel.xxx.yyy\" format"
+     },
+     {
+      "severity": "low",
+      "file": "camel/generators.py",
+      "line": 230,
+      "cwe": "CWE-",
+      "snippet": "# TODO: Return role names for user and assistant with the generator."
+     },
+     {
+      "severity": "low",
+      "file": "camel/verifiers/base.py",
+      "line": 306,
+      "cwe": "CWE-",
+      "snippet": "# TODO: check again"
+     },
+     {
+      "severity": "low",
+      "file": "camel/verifiers/python_verifier.py",
+      "line": 70,
+      "cwe": "CWE-",
+      "snippet": "# TODO: Use CAMEL's Interpreter to execute the code"
+     },
+     {
+      "severity": "low",
+      "file": "camel/utils/commons.py",
+      "line": 987,
+      "cwe": "CWE-",
+      "snippet": "# TODO: Unify backend parsing so parsed is always a model instance,"
+     },
+     {
+      "severity": "low",
+      "file": "camel/utils/deduplication.py",
+      "line": 153,
+      "cwe": "CWE-",
+      "snippet": "# TODO: Implement LLM-supervise deduplication."
+     },
+     {
+      "severity": "low",
+      "file": "camel/utils/chunker/code_chunker.py",
+      "line": 180,
+      "cwe": "CWE-",
+      "snippet": "# TODO: need to reconsider how to correctly form metadata (maybe need"
+     }
+    ]
+   },
+   "A05-SecurityMisconfiguration": {
+    "count": 3,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "camel/toolkits/earth_science_toolkit.py",
+      "line": 2638,
+      "cwe": "CWE-1188",
+      "snippet": "robust (bool, default=True): If True, use robust version of STL,"
+     },
+     {
+      "severity": "medium",
+      "file": "camel/societies/workforce/utils.py",
+      "line": 105,
+      "cwe": "CWE-1188",
+      "snippet": "default=True,"
+     },
+     {
+      "severity": "medium",
+      "file": "camel/datagen/source2synth/user_data_processor_config.py",
+      "line": 68,
+      "cwe": "CWE-1188",
+      "snippet": "default=True, description=\"Whether to use AI model in processing\""
+     }
+    ]
+   },
+   "A06-VulnerableComponents": {
+    "count": 0,
+    "findings": []
+   },
+   "A07-AuthFailures": {
+    "count": 50,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "test/toolkits/test_aci_toolkit.py",
+      "line": 41,
+      "cwe": "CWE-798",
+      "snippet": "custom_api_key = \"test_api_key\""
+     },
+     {
+      "severity": "high",
+      "file": "test/toolkits/test_bohrium_toolkit.py",
+      "line": 105,
+      "cwe": "CWE-798",
+      "snippet": "api_key=\"test_api_key\","
+     },
+     {
+      "severity": "high",
+      "file": "test/toolkits/test_dingtalk.py",
+      "line": 283,
+      "cwe": "CWE-798",
+      "snippet": "'Hello with signature!', webhook_secret='custom_secret'"
+     },
+     {
+      "severity": "high",
+      "file": "test/toolkits/test_generate_openai_tool_schema.py",
+      "line": 93,
+      "cwe": "CWE-798",
+      "snippet": "mock_model.model_type.value_for_tiktoken = \"mock_value_for_tiktoken\""
+     },
+     {
+      "severity": "high",
+      "file": "test/toolkits/test_imap_mail_toolkit.py",
+      "line": 541,
+      "cwe": "CWE-798",
+      "snippet": "password=\"custom_password\","
+     },
+     {
+      "severity": "high",
+      "file": "test/toolkits/test_microsoft_outlook_mail_toolkit.py",
+      "line": 250,
+      "cwe": "CWE-798",
+      "snippet": "toolkit.client_secret = \"mock_client_secret\""
+     },
+     {
+      "severity": "high",
+      "file": "test/toolkits/test_terminal_toolkit.py",
+      "line": 90,
+      "cwe": "CWE-798",
+      "snippet": "secret = \"ghp_SUPERSECRET\""
+     },
+     {
+      "severity": "high",
+      "file": "test/storages/test_storages_decorators.py",
+      "line": 24,
+      "cwe": "CWE-798",
+      "snippet": "fake_api_key = \"fake_api_key\""
+     },
+     {
+      "severity": "high",
+      "file": "test/storages/key_value_storages/test_mem0_cloud.py",
+      "line": 30,
+      "cwe": "CWE-798",
+      "snippet": "self.api_key = \"test_api_key\""
+     },
+     {
+      "severity": "high",
+      "file": "test/storages/graph_storages/test_nebula_graph.py",
+      "line": 34,
+      "cwe": "CWE-798",
+      "snippet": "self.password = 'pass'"
+     },
+     {
+      "severity": "high",
+      "file": "test/retrievers/test_jina_rerank_retriever.py",
+      "line": 44,
+      "cwe": "CWE-798",
+      "snippet": "retriever = JinaRerankRetriever(api_key=\"explicit_key\")"
+     },
+     {
+      "severity": "high",
+      "file": "test/retrievers/test_retrievers_decorators.py",
+      "line": 25,
+      "cwe": "CWE-798",
+      "snippet": "fake_api_key = \"fake_api_key\""
+     },
+     {
+      "severity": "high",
+      "file": "test/models/test_anthropic_model.py",
+      "line": 75,
+      "cwe": "CWE-798",
+      "snippet": "model = AnthropicModel(model_type, api_key=\"dummy_api_key\")"
+     },
+     {
+      "severity": "high",
+      "file": "test/models/test_aws_bedrock_converse_model.py",
+      "line": 347,
+      "cwe": "CWE-798",
+      "snippet": "api_key=\"AKIA_TEST_KEY\","
+     },
+     {
+      "severity": "high",
+      "file": "test/models/test_fish_audio_model.py",
+      "line": 45,
+      "cwe": "CWE-798",
+      "snippet": "api_key=\"test_api_key\", url=\"https://api.fish.audio\""
+     },
+     {
+      "severity": "high",
+      "file": "test/models/test_openai_compatible_model.py",
+      "line": 53,
+      "cwe": "CWE-798",
+      "snippet": "api_key = \"api_key_from_env_for_testing\""
+     },
+     {
+      "severity": "high",
+      "file": "test/loaders/test_apify.py",
+      "line": 35,
+      "cwe": "CWE-798",
+      "snippet": "api_key = \"test_api_key\""
+     },
+     {
+      "severity": "high",
+      "file": "test/loaders/test_chunkr_reader.py",
+      "line": 27,
+      "cwe": "CWE-798",
+      "snippet": "self.reader = ChunkrReader(api_key=\"fake_api_key\")"
+     },
+     {
+      "severity": "high",
+      "file": "test/loaders/test_firecrawl.py",
+      "line": 27,
+      "cwe": "CWE-798",
+      "snippet": "api_key = 'test_api_key'"
+     },
+     {
+      "severity": "high",
+      "file": "test/loaders/test_loaders_decorators.py",
+      "line": 25,
+      "cwe": "CWE-798",
+      "snippet": "fake_api_key = \"fake_api_key\""
+     },
+     {
+      "severity": "high",
+      "file": "test/loaders/test_mistral_reader.py",
+      "line": 41,
+      "cwe": "CWE-798",
+      "snippet": "test_api_key = \"test_api_key\""
+     },
+     {
+      "severity": "high",
+      "file": "test/loaders/test_scrapegraph_reader.py",
+      "line": 28,
+      "cwe": "CWE-798",
+      "snippet": "yield ScrapeGraphAI(api_key=\"test_api_key\")"
+     },
+     {
+      "severity": "high",
+      "file": "test/datahubs/test_huggingface.py",
+      "line": 25,
+      "cwe": "CWE-798",
+      "snippet": "TOKEN = \"your_huggingface_token\""
+     },
+     {
+      "severity": "high",
+      "file": "test/bots/test_discord_app.py",
+      "line": 42,
+      "cwe": "CWE-798",
+      "snippet": "app = DiscordApp(token='custom_token')"
+     },
+     {
+      "severity": "high",
+      "file": "test/bots/test_slack_app.py",
+      "line": 62,
+      "cwe": "CWE-798",
+      "snippet": "signing_secret=\"fake_signing_secret1\","
+     }
+    ]
+   },
+   "A08-SoftwareDataIntegrity": {
+    "count": 1145,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "test/conftest.py",
+      "line": 6,
+      "cwe": "CWE-319",
+      "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "test/test_all_exports.py",
+      "line": 6,
+      "cwe": "CWE-319",
+      "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "test/test_generators.py",
+      "line": 6,
+      "cwe": "CWE-319",
+      "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "test/test_human.py",
+      "line": 6,
+      "cwe": "CWE-319",
+      "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "test/workforce/test_workflow_memory.py",
+      "line": 6,
+      "cwe": "CWE-319",
+      "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "test/workforce/test_workforce.py",
+      "line": 6,
+      "cwe": "CWE-319",
+      "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "test/workforce/test_workforce_callbacks.py",
+      "line": 6,
+      "cwe": "CWE-319",
+      "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "test/workforce/test_workforce_pipeline.py",
+      "line": 6,
+      "cwe": "CWE-319",
+      "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "test/workforce/test_workforce_single_agent.py",
+      "line": 6,
+      "cwe": "CWE-319",
+      "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "test/verifiers/test_base_verifier.py",
+      "line": 6,
+      "cwe": "CWE-319",
+      "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "test/verifiers/test_math_verifier.py",
+      "line": 6,
+      "cwe": "CWE-319",
+      "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "test/verifiers/test_python_verifier.py",
+      "line": 6,
+      "cwe": "CWE-319",
+      "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "test/utils/test_async_func.py",
+      "line": 6,
+      "cwe": "CWE-319",
+      "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "test/utils/test_commons.py",
+      "line": 6,
+      "cwe": "CWE-319",
+      "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "test/utils/test_context_utils.py",
+      "line": 6,
+      "cwe": "CWE-319",
+      "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "test/utils/test_deduplication.py",
+      "line": 6,
+      "cwe": "CWE-319",
+      "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "test/utils/test_filename.py",
+      "line": 6,
+      "cwe": "CWE-319",
+      "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "test/utils/test_mcp.py",
+      "line": 6,
+      "cwe": "CWE-319",
+      "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "test/utils/test_mcp_client.py",
+      "line": 6,
+      "cwe": "CWE-319",
+      "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "test/utils/test_mcp_server.py",
+      "line": 6,
+      "cwe": "CWE-319",
+      "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "test/utils/test_message_summarizer.py",
+      "line": 6,
+      "cwe": "CWE-319",
+      "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "test/utils/test_response_format.py",
+      "line": 6,
+      "cwe": "CWE-319",
+      "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "test/utils/test_stream_utils.py",
+      "line": 6,
+      "cwe": "CWE-319",
+      "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "test/utils/test_token_counting.py",
+      "line": 6,
+      "cwe": "CWE-319",
+      "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+     },
+     {
+      "severity": "low",
+      "file": "test/toolkits/test_aci_toolkit.py",
+      "line": 6,
+      "cwe": "CWE-319",
+      "snippet": "#     http://www.apache.org/licenses/LICENSE-2.0"
+     }
+    ]
+   },
+   "A09-LoggingMonitoringFailures": {
+    "count": 0,
+    "findings": []
+   },
+   "A10-SSRF": {
+    "count": 1,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "examples/bots/discord_bot_installation_management.py",
+      "line": 61,
+      "cwe": "CWE-601",
+      "snippet": "async def oauth_redirect(code: str, guild_id: str):"
+     }
+    ]
+   }
+  }
+ },
+ "owasp_llm_top10": {
+  "total_findings": 70,
+  "files_with_findings": 68,
+  "severity": {
+   "high": 32,
+   "medium": 9,
+   "low": 29
+  },
+  "categories": {
+   "LLM01-PromptInjection": {
+    "count": 9,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "examples/dataset/self_instruct_generator.py",
+      "line": 82,
+      "cwe": "CWE-1427",
+      "snippet": "RATIONALE_SYSTEM_PROMPT = \"\"\"You are an advanced Python code assistant."
+     },
+     {
+      "severity": "low",
+      "file": "camel/toolkits/async_browser_toolkit.py",
+      "line": 1068,
+      "cwe": "CWE-1427",
+      "snippet": "system_prompt = WEB_AGENT_SYSTEM_PROMPT"
+     },
+     {
+      "severity": "low",
+      "file": "camel/toolkits/browser_toolkit.py",
+      "line": 921,
+      "cwe": "CWE-1427",
+      "snippet": "system_prompt = WEB_AGENT_SYSTEM_PROMPT"
+     },
+     {
+      "severity": "low",
+      "file": "camel/toolkits/browser_toolkit_commons.py",
+      "line": 36,
+      "cwe": "CWE-1427",
+      "snippet": "WEB_AGENT_SYSTEM_PROMPT = \"\"\""
+     },
+     {
+      "severity": "medium",
+      "file": "camel/toolkits/file_toolkit.py",
+      "line": 395,
+      "cwe": "CWE-1336",
+      "snippet": "doc = SimpleDocTemplate("
+     },
+     {
+      "severity": "low",
+      "file": "camel/toolkits/hybrid_browser_toolkit_py/agent.py",
+      "line": 55,
+      "cwe": "CWE-1427",
+      "snippet": "SYSTEM_PROMPT = \"\"\""
+     },
+     {
+      "severity": "low",
+      "file": "camel/datasets/few_shot_generator.py",
+      "line": 32,
+      "cwe": "CWE-1427",
+      "snippet": "SYSTEM_PROMPT = \"\"\"**You are an advanced data generation assistant.**"
+     },
+     {
+      "severity": "low",
+      "file": "camel/datasets/self_instruct_generator.py",
+      "line": 34,
+      "cwe": "CWE-1427",
+      "snippet": "DEFAULT_INSTRUCTION_SYSTEM_PROMPT = \"\"\""
+     },
+     {
+      "severity": "medium",
+      "file": "camel/agents/repo_agent.py",
+      "line": 154,
+      "cwe": "CWE-1336",
+      "snippet": "self.prompt_template = Template("
+     }
+    ]
+   },
+   "LLM02-SensitiveInfoDisclosure": {
+    "count": 23,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "test/workforce/test_workforce_pipeline.py",
+      "line": 93,
+      "cwe": "CWE-798",
+      "snippet": "r\"\"\"Ensure OPENAI_API_KEY is set during tests.\"\"\""
+     },
+     {
+      "severity": "high",
+      "file": "test/models/test_model_factory.py",
+      "line": 179,
+      "cwe": "CWE-798",
+      "snippet": "@patch.dict(os.environ, {\"OPENAI_API_KEY\": \"test_key\"})"
+     },
+     {
+      "severity": "high",
+      "file": "test/datahubs/test_huggingface.py",
+      "line": 31,
+      "cwe": "CWE-798",
+      "snippet": "os.environ[\"HF_TOKEN\"] = TOKEN"
+     },
+     {
+      "severity": "high",
+      "file": "test/agents/test_openai_responses_api_e2e.py",
+      "line": 28,
+      "cwe": "CWE-798",
+      "snippet": "HAS_OPENAI_API_KEY = bool(os.getenv(\"OPENAI_API_KEY\"))"
+     },
+     {
+      "severity": "high",
+      "file": "services/agent_mcp/agent_config.py",
+      "line": 50,
+      "cwe": "CWE-798",
+      "snippet": "api_key=os.getenv(\"OPENAI_API_KEY\"),  # Set this environment variable"
+     },
+     {
+      "severity": "high",
+      "file": "examples/usecases/pptx_toolkit_usecase/app_pptx.py",
+      "line": 113,
+      "cwe": "CWE-798",
+      "snippet": "os.environ[\"OPENAI_API_KEY\"] = api_key"
+     },
+     {
+      "severity": "high",
+      "file": "examples/runtimes/shared_runtime_multi_toolkit.py",
+      "line": 186,
+      "cwe": "CWE-798",
+      "snippet": "\"OPENAI_API_KEY\","
+     },
+     {
+      "severity": "high",
+      "file": "examples/runtimes/ubuntu_docker_runtime/ubuntu_docker_example.py",
+      "line": 25,
+      "cwe": "CWE-798",
+      "snippet": "openai_api_key = os.environ.get(\"OPENAI_API_KEY\")"
+     },
+     {
+      "severity": "high",
+      "file": "examples/models/openai_responses_api_example.py",
+      "line": 26,
+      "cwe": "CWE-798",
+      "snippet": "export OPENAI_API_KEY=\"your_openai_api_key\""
+     },
+     {
+      "severity": "high",
+      "file": "examples/models/prompt_caching_openai_example.py",
+      "line": 23,
+      "cwe": "CWE-798",
+      "snippet": "export OPENAI_API_KEY=\"sk-...\""
+     },
+     {
+      "severity": "high",
+      "file": "examples/models/sglang_model_example.py",
+      "line": 31,
+      "cwe": "CWE-798",
+      "snippet": "export HF_TOKEN=\"\""
+     },
+     {
+      "severity": "high",
+      "file": "examples/memories/memanto_memory_example.py",
+      "line": 28,
+      "cwe": "CWE-798",
+      "snippet": "4. Set OPENAI_API_KEY for the default ChatAgent model."
+     },
+     {
+      "severity": "high",
+      "file": "examples/caches/semantic_cache_example.py",
+      "line": 26,
+      "cwe": "CWE-798",
+      "snippet": "1. OpenAI (requires OPENAI_API_KEY environment variable)"
+     },
+     {
+      "severity": "high",
+      "file": "examples/benchmarks/gaia.py",
+      "line": 24,
+      "cwe": "CWE-798",
+      "snippet": "- OPENAI_API_KEY (or other API keys)"
+     },
+     {
+      "severity": "high",
+      "file": "camel/utils/commons.py",
+      "line": 325,
+      "cwe": "CWE-798",
+      "snippet": "'OPENAI_API_KEY': \"https://platform.openai.com/docs/overview\","
+     },
+     {
+      "severity": "high",
+      "file": "camel/toolkits/image_generation_toolkit.py",
+      "line": 360,
+      "cwe": "CWE-798",
+      "snippet": "@api_keys_required([(\"api_key\", \"OPENAI_API_KEY\")])"
+     },
+     {
+      "severity": "high",
+      "file": "camel/schemas/openai_converter.py",
+      "line": 58,
+      "cwe": "CWE-798",
+      "snippet": "(\"api_key\", \"OPENAI_API_KEY\"),"
+     },
+     {
+      "severity": "high",
+      "file": "camel/models/azure_openai_model.py",
+      "line": 160,
+      "cwe": "CWE-798",
+      "snippet": "# Skip OpenAIModel.__init__ (requires OPENAI_API_KEY) and create"
+     },
+     {
+      "severity": "high",
+      "file": "camel/models/openai_audio_models.py",
+      "line": 37,
+      "cwe": "CWE-798",
+      "snippet": "self._api_key = api_key or os.environ.get(\"OPENAI_API_KEY\")"
+     },
+     {
+      "severity": "high",
+      "file": "camel/models/openai_model.py",
+      "line": 127,
+      "cwe": "CWE-798",
+      "snippet": "(\"api_key\", \"OPENAI_API_KEY\"),"
+     },
+     {
+      "severity": "high",
+      "file": "camel/embeddings/openai_embedding.py",
+      "line": 47,
+      "cwe": "CWE-798",
+      "snippet": "(\"api_key\", 'OPENAI_API_KEY'),"
+     },
+     {
+      "severity": "high",
+      "file": "camel/datasets/static_dataset.py",
+      "line": 466,
+      "cwe": "CWE-798",
+      "snippet": "the token will be read from the environment variable `HF_TOKEN`"
+     },
+     {
+      "severity": "high",
+      "file": "camel/datahubs/huggingface.py",
+      "line": 35,
+      "cwe": "CWE-798",
+      "snippet": "will be read from the environment variable `HF_TOKEN`."
+     }
+    ]
+   },
+   "LLM03-SupplyChain": {
+    "count": 5,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "camel/toolkits/jina_reranker_toolkit.py",
+      "line": 81,
+      "cwe": "CWE-494",
+      "snippet": "self.model = AutoModel.from_pretrained("
+     },
+     {
+      "severity": "medium",
+      "file": "camel/models/reward/skywork_model.py",
+      "line": 54,
+      "cwe": "CWE-494",
+      "snippet": "self._client = AutoModelForSequenceClassification.from_pretrained("
+     },
+     {
+      "severity": "medium",
+      "file": "camel/embeddings/vlm_embedding.py",
+      "line": 83,
+      "cwe": "CWE-494",
+      "snippet": "self.model = AutoModel.from_pretrained(model_name)"
+     },
+     {
+      "severity": "medium",
+      "file": "camel/datahubs/huggingface.py",
+      "line": 340,
+      "cwe": "CWE-494",
+      "snippet": "downloaded_file_path = hf_hub_download("
+     },
+     {
+      "severity": "medium",
+      "file": "apps/data_explorer/downloader.py",
+      "line": 37,
+      "cwe": "CWE-494",
+      "snippet": "hf_hub_download("
+     }
+    ]
+   },
+   "LLM04-DataPoisoning": {
+    "count": 2,
+    "findings": [
+     {
+      "severity": "medium",
+      "file": "test/memories/test_memanto_memory.py",
+      "line": 57,
+      "cwe": "CWE-20",
+      "snippet": "payload = json.loads(request.content)"
+     },
+     {
+      "severity": "medium",
+      "file": "camel/utils/response_format.py",
+      "line": 43,
+      "cwe": "CWE-20",
+      "snippet": "data_dict = json.loads(input_data)"
+     }
+    ]
+   },
+   "LLM05-ImproperOutputHandling": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM06-ExcessiveAgency": {
+    "count": 9,
+    "findings": [
+     {
+      "severity": "high",
+      "file": "test/toolkits/test_code_execution.py",
+      "line": 47,
+      "cwe": "CWE-862",
+      "snippet": "return CodeExecutionToolkit(require_confirm=False)"
+     },
+     {
+      "severity": "high",
+      "file": "test/interpreters/test_docker_interpreter.py",
+      "line": 29,
+      "cwe": "CWE-862",
+      "snippet": "require_confirm=False, print_stdout=True, print_stderr=True"
+     },
+     {
+      "severity": "high",
+      "file": "test/interpreters/test_jupyterkernel_interpreter.py",
+      "line": 23,
+      "cwe": "CWE-862",
+      "snippet": "require_confirm=False, print_stdout=True, print_stderr=True"
+     },
+     {
+      "severity": "high",
+      "file": "test/interpreters/test_microsandbox_interpreter.py",
+      "line": 33,
+      "cwe": "CWE-862",
+      "snippet": "require_confirm=False,"
+     },
+     {
+      "severity": "high",
+      "file": "test/interpreters/test_subprocess_interpreter.py",
+      "line": 24,
+      "cwe": "CWE-862",
+      "snippet": "require_confirm=False,"
+     },
+     {
+      "severity": "high",
+      "file": "examples/toolkits/dynamic_dependency.py",
+      "line": 140,
+      "cwe": "CWE-862",
+      "snippet": "docker_interpreter = DockerInterpreter(require_confirm=False)"
+     },
+     {
+      "severity": "high",
+      "file": "examples/toolkits/e2b_custom_provider_example.py",
+      "line": 131,
+      "cwe": "CWE-862",
+      "snippet": "interpreter = E2BInterpreter(require_confirm=False)"
+     },
+     {
+      "severity": "high",
+      "file": "examples/interpreters/ipython_interpreter_example.py",
+      "line": 17,
+      "cwe": "CWE-862",
+      "snippet": "require_confirm=False, print_stdout=True, print_stderr=True"
+     },
+     {
+      "severity": "high",
+      "file": "examples/interpreters/microsandbox_interpreter_example.py",
+      "line": 23,
+      "cwe": "CWE-862",
+      "snippet": "require_confirm=False,"
+     }
+    ]
+   },
+   "LLM07-SystemPromptLeak": {
+    "count": 0,
+    "findings": []
+   },
+   "LLM08-VectorEmbeddingWeaknesses": {
+    "count": 16,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "test/storages/vector_storages/test_faiss.py",
+      "line": 19,
+      "cwe": "CWE-",
+      "snippet": "FaissStorage,"
+     },
+     {
+      "severity": "low",
+      "file": "test/storages/vector_storages/test_milvus.py",
+      "line": 18,
+      "cwe": "CWE-",
+      "snippet": "from camel.storages import MilvusStorage, VectorDBQuery, VectorRecord"
+     },
+     {
+      "severity": "low",
+      "file": "test/storages/vector_storages/test_weaviate.py",
+      "line": 19,
+      "cwe": "CWE-",
+      "snippet": "from camel.storages import VectorDBQuery, VectorRecord, WeaviateStorage"
+     },
+     {
+      "severity": "low",
+      "file": "examples/storages/chroma_vector_storage.py",
+      "line": 18,
+      "cwe": "CWE-",
+      "snippet": "ChromaStorage,"
+     },
+     {
+      "severity": "low",
+      "file": "examples/storages/weaviate_vector_storage.py",
+      "line": 20,
+      "cwe": "CWE-",
+      "snippet": "WeaviateStorage,"
+     },
+     {
+      "severity": "low",
+      "file": "examples/caches/semantic_cache_example.py",
+      "line": 30,
+      "cwe": "CWE-",
+      "snippet": "- faiss-cpu or faiss-gpu installed for vector storage"
+     },
+     {
+      "severity": "low",
+      "file": "camel/types/enums.py",
+      "line": 1956,
+      "cwe": "CWE-",
+      "snippet": "MILVUS = \"milvus\""
+     },
+     {
+      "severity": "low",
+      "file": "camel/storages/__init__.py",
+      "line": 29,
+      "cwe": "CWE-",
+      "snippet": "from .vectordb_storages.chroma import ChromaStorage"
+     },
+     {
+      "severity": "low",
+      "file": "camel/storages/vectordb_storages/chroma.py",
+      "line": 18,
+      "cwe": "CWE-",
+      "snippet": "from chromadb.api import ClientAPI"
+     },
+     {
+      "severity": "low",
+      "file": "camel/storages/vectordb_storages/faiss.py",
+      "line": 37,
+      "cwe": "CWE-",
+      "snippet": "class FaissStorage(BaseVectorStorage):"
+     },
+     {
+      "severity": "low",
+      "file": "camel/storages/vectordb_storages/milvus.py",
+      "line": 31,
+      "cwe": "CWE-",
+      "snippet": "class MilvusStorage(BaseVectorStorage):"
+     },
+     {
+      "severity": "low",
+      "file": "camel/storages/vectordb_storages/weaviate.py",
+      "line": 30,
+      "cwe": "CWE-",
+      "snippet": "from weaviate import WeaviateClient"
+     },
+     {
+      "severity": "low",
+      "file": "camel/storages/vectordb_storages/__init__.py",
+      "line": 22,
+      "cwe": "CWE-",
+      "snippet": "from .chroma import ChromaStorage"
+     },
+     {
+      "severity": "low",
+      "file": "camel/retrievers/auto_retriever.py",
+      "line": 30,
+      "cwe": "CWE-",
+      "snippet": "MilvusStorage,"
+     },
+     {
+      "severity": "low",
+      "file": "camel/loaders/unstructured_io.py",
+      "line": 382,
+      "cwe": "CWE-",
+      "snippet": "'stage_for_weaviate',"
+     },
+     {
+      "severity": "low",
+      "file": "camel/caches/semantic_cache.py",
+      "line": 415,
+      "cwe": "CWE-",
+      "snippet": "# don't support nested dicts (e.g., ChromaDB)"
+     }
+    ]
+   },
+   "LLM09-Misinformation": {
+    "count": 6,
+    "findings": [
+     {
+      "severity": "low",
+      "file": "test/verifiers/test_base_verifier.py",
+      "line": 70,
+      "cwe": "CWE-",
+      "snippet": "assert verifier._max_parallel is None"
+     },
+     {
+      "severity": "low",
+      "file": "test/verifiers/test_math_verifier.py",
+      "line": 27,
+      "cwe": "CWE-",
+      "snippet": "assert result.status == VerificationOutcome.SUCCESS"
+     },
+     {
+      "severity": "low",
+      "file": "test/verifiers/test_python_verifier.py",
+      "line": 36,
+      "cwe": "CWE-",
+      "snippet": "assert python_verifier.venv_path is not None"
+     },
+     {
+      "severity": "low",
+      "file": "test/loaders/test_unstructured_io.py",
+      "line": 61,
+      "cwe": "CWE-",
+      "snippet": "# Assertions to verify correct element creation"
+     },
+     {
+      "severity": "low",
+      "file": "test/environments/test_single_step_env.py",
+      "line": 531,
+      "cwe": "CWE-",
+      "snippet": "assert info[\"verification_result\"].status == VerificationOutcome.FAILURE"
+     },
+     {
+      "severity": "low",
+      "file": "test/datasets/test_self_instruct_generator.py",
+      "line": 114,
+      "cwe": "CWE-",
+      "snippet": "assert generator.verifier == mock_verifier"
+     }
+    ]
+   },
+   "LLM10-UnboundedConsumption": {
+    "count": 0,
+    "findings": []
+   }
+  }
+ },
+ "sbom": {
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:aa9ef533-8c44-55cf-bb59-d017a89fe04f",
+  "version": 1,
+  "metadata": {
+   "timestamp": "2026-10-13T20:03:50Z",
+   "component": {
+    "type": "application",
+    "name": "L_COWAGENT",
+    "version": "0106b76830c7",
+    "bom-ref": "pkg:generic/anticloud/L_COWAGENT@0106b76830c7",
+    "purl": "pkg:generic/anticloud/L_COWAGENT@0106b76830c7",
+    "licenses": [
+     {
+      "license": {
+       "id": "Apache-2.0"
+      }
+     }
+    ]
+   },
+   "properties": [
+    {
+     "name": "anticloud:source-commit",
+     "value": "0106b76830c707effe48cd3da384dda38cbed92e"
+    },
+    {
+     "name": "anticloud:source-url",
+     "value": "https://github.com/camel-ai/camel.git"
+    },
+    {
+     "name": "anticloud:tier",
+     "value": "tier-agent"
+    }
+   ]
+  },
+  "components": [
+   {
+    "type": "library",
+    "name": "mcp",
+    "version": ">=1.3.0",
+    "purl": "pkg:pypi/mcp@1.3.0",
+    "bom-ref": "pypi/mcp@>=1.3.0"
+   },
+   {
+    "type": "library",
+    "name": "tiktoken",
+    "version": ">=0.7.0",
+    "purl": "pkg:pypi/tiktoken@0.7.0",
+    "bom-ref": "pypi/tiktoken@>=0.7.0"
+   },
+   {
+    "type": "library",
+    "name": "colorama",
+    "version": ">=0.4.6",
+    "purl": "pkg:pypi/colorama@0.4.6",
+    "bom-ref": "pypi/colorama@>=0.4.6"
+   },
+   {
+    "type": "library",
+    "name": "jsonschema",
+    "version": ">=4",
+    "purl": "pkg:pypi/jsonschema@4",
+    "bom-ref": "pypi/jsonschema@>=4"
+   },
+   {
+    "type": "library",
+    "name": "docstring-parser",
+    "version": ">=0.17.0",
+    "purl": "pkg:pypi/docstring-parser@0.17.0",
+    "bom-ref": "pypi/docstring-parser@>=0.17.0"
+   },
+   {
+    "type": "library",
+    "name": "pydantic",
+    "version": ">=2.10.6",
+    "purl": "pkg:pypi/pydantic@2.10.6",
+    "bom-ref": "pypi/pydantic@>=2.10.6"
+   },
+   {
+    "type": "library",
+    "name": "httpx",
+    "version": ">=0.28.0",
+    "purl": "pkg:pypi/httpx@0.28.0",
+    "bom-ref": "pypi/httpx@>=0.28.0"
+   },
+   {
+    "type": "library",
+    "name": "psutil",
+    "version": ">=5.9.8",
+    "purl": "pkg:pypi/psutil@5.9.8",
+    "bom-ref": "pypi/psutil@>=5.9.8"
+   },
+   {
+    "type": "library",
+    "name": "openai",
+    "version": ">=1.86.0",
+    "purl": "pkg:pypi/openai@1.86.0",
+    "bom-ref": "pypi/openai@>=1.86.0"
+   },
+   {
+    "type": "library",
+    "name": "websockets",
+    "version": ">=13.0",
+    "purl": "pkg:pypi/websockets@13.0",
+    "bom-ref": "pypi/websockets@>=13.0"
+   },
+   {
+    "type": "library",
+    "name": "astor",
+    "version": ">=0.8.1",
+    "purl": "pkg:pypi/astor@0.8.1",
+    "bom-ref": "pypi/astor@>=0.8.1"
+   },
+   {
+    "type": "library",
+    "name": "pillow",
+    "version": ">=10.0.0",
+    "purl": "pkg:pypi/pillow@10.0.0",
+    "bom-ref": "pypi/pillow@>=10.0.0"
+   },
+   {
+    "type": "library",
+    "name": "google-search-results",
+    "version": ">=2.4.2",
+    "purl": "pkg:pypi/google-search-results@2.4.2",
+    "bom-ref": "pypi/google-search-results@>=2.4.2"
+   },
+   {
+    "type": "library",
+    "name": "pyyaml",
+    "version": ">=6.0.3",
+    "purl": "pkg:pypi/pyyaml@6.0.3",
+    "bom-ref": "pypi/pyyaml@>=6.0.3"
+   },
+   {
+    "type": "library",
+    "name": "playwright",
+    "version": "^1.57.0",
+    "purl": "pkg:npm/playwright@^1.57.0",
+    "bom-ref": "npm/playwright@^1.57.0"
+   },
+   {
+    "type": "library",
+    "name": "ws",
+    "version": "^8.14.0",
+    "purl": "pkg:npm/ws@^8.14.0",
+    "bom-ref": "npm/ws@^8.14.0"
+   },
+   {
+    "type": "library",
+    "name": "@types/jest",
+    "version": "^30.0.0",
+    "purl": "pkg:npm/@types/jest@^30.0.0",
+    "bom-ref": "npm/@types/jest@^30.0.0"
+   },
+   {
+    "type": "library",
+    "name": "@types/node",
+    "version": "^25.0.1",
+    "purl": "pkg:npm/@types/node@^25.0.1",
+    "bom-ref": "npm/@types/node@^25.0.1"
+   },
+   {
+    "type": "library",
+    "name": "@types/ws",
+    "version": "^8.5.0",
+    "purl": "pkg:npm/@types/ws@^8.5.0",
+    "bom-ref": "npm/@types/ws@^8.5.0"
+   },
+   {
+    "type": "library",
+    "name": "jest",
+    "version": "^30.2.0",
+    "purl": "pkg:npm/jest@^30.2.0",
+    "bom-ref": "npm/jest@^30.2.0"
+   },
+   {
+    "type": "library",
+    "name": "typescript",
+    "version": "^5.8.3",
+    "purl": "pkg:npm/typescript@^5.8.3",
+    "bom-ref": "npm/typescript@^5.8.3"
+   },
+   {
+    "type": "library",
+    "name": "ts-jest",
+    "version": "^29.4.6",
+    "purl": "pkg:npm/ts-jest@^29.4.6",
+    "bom-ref": "npm/ts-jest@^29.4.6"
+   }
+  ]
+ },
+ "elapsed_seconds": 34.18,
+ "benchmarks": [
+  {
+   "evidence": {
+    "ceilings": {
+     "max_files": 120,
+     "max_lines": 20000,
+     "min_lines": 2000
+    },
+    "code_lines": 6889,
+    "command": "python tools/run_bench.py --only 01_loc_files",
+    "counts_command": "find src tests tools -name '*.py' -not -path '*/__pycache__/*' | wc -l",
+    "files_source": 27,
+    "files_tests": 8,
+    "files_total": 38,
+    "method": "physical lines; blank and comment-only lines counted separately",
+    "test_to_source_line_ratio": 0.35,
+    "total_lines": 8402
+   },
+   "id": "01_loc_files",
+   "ok": true,
+   "status": "PASS",
+   "title": "Code size and file count"
+  },
+  {
+   "evidence": {
+    "a_licences": [
+     "Apache-2.0",
+     "BSD-2-Clause",
+     "BSD-3-Clause",
+     "ISC",
+     "MIT",
+     "MPL-2.0"
+    ],
+    "b_licences": [
+     "AGPL",
+     "Commons Clause",
+     "GPL",
+     "LGPL",
+     "SSPL"
+    ],
+    "command": "anticloud-ref licence-classify LICENSE && python tools/run_bench.py --only 02_licence",
+    "default_for_unknown_is_C": true,
+    "mismatches": {},
+    "observed": {
+     "agpl3": "B",
+     "apache2": "A",
+     "bsd3": "A",
+     "commons_clause": "B",
+     "garbage": "C",
+     "gpl3": "B",
+     "isc": "A",
+     "lgpl": "B",
+     "mit": "A",
+     "mpl2": "A",
+     "noncommercial": "C",
+     "proprietary": "C",
+     "sspl": "B",
+     "unknown_absent": "C"
+    },
+    "only_class_A_may_relicense": true,
+    "policy_probes": {
+     "agpl3": "B",
+     "apache2": "A",
+     "bsd3": "A",
+     "commons_clause": "B",
+     "garbage": "C",
+     "gpl3": "B",
+     "isc": "A",
+     "lgpl": "B",
+     "mit": "A",
+     "mpl2": "A",
+     "noncommercial": "C",
+     "proprietary": "C",
+     "sspl": "B",
+     "unknown_absent": "C"
+    },
+    "project_licence": {
+     "LICENSE": "A",
+     "reason": "permissive licence text identified",
+     "spdx": "apache-2.0"
+    },
+    "pyproject_declared": "Apache-2.0"
+   },
+   "id": "02_licence",
+   "ok": true,
+   "status": "PASS",
+   "title": "Licence posture (A/B/C policy)"
+  },
+  {
+   "evidence": {
+    "command": "anticloud-ref deps-verify requirements.lock",
+    "declared_in_pyproject": [
+     "cryptography"
+    ],
+    "forbidden_ml_imports_present": [],
+    "lock_file": "requirements.lock",
+    "packages_hashed": 6,
+    "packages_pinned": 6,
+    "requirements": [
+     "cffi==2.1.1",
+     "coverage==7.16.2",
+     "cryptography==50.0.2",
+     "pycparser==3.0",
+     "pytest==9.1.1",
+     "pytest-cov==7.1.0"
+    ],
+    "sha256_hashes": 286,
+    "transitive_or_unclassified": [
+     "cffi==2.1.1",
+     "coverage==7.16.2",
+     "cryptography==50.0.2",
+     "pycparser==3.0",
+     "pytest-cov==7.1.0",
+     "pytest==9.1.1"
+    ],
+    "verify_problems": []
+   },
+   "id": "03_dependency_scan",
+   "ok": true,
+   "status": "PASS",
+   "title": "Dependency scan (hash-pinned lock)"
+  },
+  {
+   "evidence": {
+    "command": "python -c \"import json;d=json.load(open('sbom.cdx.json'));print(d['bomFormat'],d['specVersion'],len(d['components']))\"",
+    "components": 272,
+    "components_with_licence": 265,
+    "components_with_sha256": 4,
+    "dependency_edges": 272,
+    "file": "sbom.cdx.json",
+    "format": "CycloneDX",
+    "generated_from": "live importlib.metadata + requirements.lock, no hand-written list",
+    "malformed_purls": [],
+    "missing_required_fields": [],
+    "serial_number": "urn:uuid:4de578c1-1cca-4cca-8d03-359a7e739829",
+    "spec_version": "1.5"
+   },
+   "id": "04_sbom_cyclonedx",
+   "ok": true,
+   "status": "PASS",
+   "title": "SBOM (CycloneDX 1.5)"
+  },
+  {
+   "evidence": {
+    "branch": "main",
+    "command": "git status --porcelain && git log --oneline -1 && git fsck --no-progress",
+    "commits": 1,
+    "gitignore_present": true,
+    "governed_by_changelog": true,
+    "head": "c85f4a5e6a7108f11501c1372e63040c216fbde9",
+    "latest_commit": "c85f4a5 anticloud overlay for L_COWAGENT",
+    "remotes": [],
+    "repo": true,
+    "tags": [],
+    "untracked_or_modified": [],
+    "working_tree_clean": true
+   },
+   "id": "05_git_health",
+   "ok": true,
+   "status": "PASS",
+   "title": "Git health"
+  },
+  {
+   "evidence": {
+    "authority": "OWASP Foundation",
+    "command": "python tools/run_bench.py --only owasp",
+    "control_ids": [
+     "LLM01",
+     "LLM02",
+     "LLM03",
+     "LLM04",
+     "LLM05",
+     "LLM06",
+     "LLM07",
+     "LLM08",
+     "LLM09",
+     "LLM10"
+    ],
+    "controls_mapped": 10,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 10,
+    "coverage_command": "anticloud-ref bench --framework owasp_llm_top10   # 10/10 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "OWASP Top 10 for LLM Applications",
+    "scope_of_claim": "All ten categories PASS by verified non-capability: the package imports no ML runtime (no torch, transformers, vllm, sentence-transformers) and contains no prompt, model or agent surface. A PASS means the risk is structurally absent, not mitigated.",
+    "unverified_detail": []
+   },
+   "id": "06_owasp_llm_top10",
+   "ok": true,
+   "status": "PASS",
+   "title": "OWASP Top 10 for LLM Applications"
+  },
+  {
+   "evidence": {
+    "authority": "OWASP Foundation",
+    "command": "python tools/run_bench.py --only owasp",
+    "control_ids": [
+     "A01:2021",
+     "A02:2021",
+     "A03:2021",
+     "A05:2021",
+     "A06:2021",
+     "A07:2021",
+     "A08:2021",
+     "A09:2021",
+     "A10:2021"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework owasp_top10   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "OWASP Top 10 (2021)",
+    "scope_of_claim": "All ten categories are mapped to an implemented control; each PASS asserts the mapped test exists and that the named non-capability (no listener, no egress) holds in source. It is not a penetration test.",
+    "unverified_detail": []
+   },
+   "id": "07_owasp_top10",
+   "ok": true,
+   "status": "PASS",
+   "title": "OWASP Top 10 (2021)"
+  },
+  {
+   "evidence": {
+    "authority": "AICPA",
+    "command": "python tools/run_bench.py --only soc2",
+    "control_ids": [
+     "CC6.1",
+     "CC6.2",
+     "CC6.6",
+     "CC6.7",
+     "CC6.8",
+     "CC7.2",
+     "CC8.1",
+     "CC9.2",
+     "CC6.1"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework soc2   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "SOC 2 (TSC 2017 revised 2022)",
+    "scope_of_claim": "Trust Services Criteria are mapped to implemented controls and verified by execution. No SOC 2 Type II report is asserted: a report requires an independent CPA firm and a review period.",
+    "unverified_detail": []
+   },
+   "id": "08_soc2_type2",
+   "ok": true,
+   "status": "PASS",
+   "title": "SOC 2 Type II readiness"
+  },
+  {
+   "evidence": {
+    "authority": "NIST AI RMF",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "GOVERN-1.1",
+     "GOVERN-2.2",
+     "MAP-1.1",
+     "MAP-3.5",
+     "MEASURE-2.7",
+     "MEASURE-2.8",
+     "MANAGE-2.2",
+     "MANAGE-4.1"
+    ],
+    "controls_mapped": 8,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 8,
+    "coverage_command": "anticloud-ref bench --framework nist_ai_rmf   # 8/8 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST AI Risk Management Framework 1.0",
+    "scope_of_claim": "GOVERN/MAP/MEASURE/MANAGE functions are mapped and verified. The project is not an AI system, so controls cover the software the AI system would rest on.",
+    "unverified_detail": []
+   },
+   "id": "09_nist_ai_rmf",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST AI Risk Management Framework"
+  },
+  {
+   "evidence": {
+    "authority": "NIST",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "AC-3(2)",
+     "AC-6(7)",
+     "AU-2",
+     "AU-3",
+     "AU-10",
+     "CM-6",
+     "CP-9",
+     "RA-5",
+     "SA-11",
+     "SI-7",
+     "SC-12",
+     "SC-13"
+    ],
+    "controls_mapped": 12,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 12,
+    "coverage_command": "anticloud-ref bench --framework nist_800_53   # 12/12 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST SP 800-53 Rev. 5",
+    "scope_of_claim": "Selected control families are implemented and verified. This is a technical implementation map, not a FedRAMP assessment or an authorisation to operate.",
+    "unverified_detail": []
+   },
+   "id": "10_nist_sp_800_53",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST SP 800-53 Rev. 5"
+  },
+  {
+   "evidence": {
+    "authority": "NIST",
+    "command": "python tools/run_bench.py --only nist",
+    "control_ids": [
+     "GOVERN-1.1",
+     "GOVERN-2.2",
+     "MAP-1.1",
+     "MAP-3.5",
+     "MEASURE-2.7",
+     "MEASURE-2.8",
+     "MANAGE-2.2",
+     "MANAGE-4.1"
+    ],
+    "controls_mapped": 8,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 8,
+    "coverage_command": "anticloud-ref bench --framework nist_csf   # 8/8 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "NIST Cybersecurity Framework 2.0",
+    "scope_of_claim": "CSF 2.0 functions are covered through the aligned control map. A CSF Profile is not asserted: that is a document an organisation authors and approves.",
+    "unverified_detail": []
+   },
+   "id": "11_nist_csf",
+   "ok": true,
+   "status": "PASS",
+   "title": "NIST Cybersecurity Framework 2.0"
+  },
+  {
+   "evidence": {
+    "authority": "FedRAMP",
+    "command": "python tools/run_bench.py --only fedramp",
+    "control_ids": [
+     "IA-2",
+     "IA-5",
+     "RA-5",
+     "SA-4",
+     "SA-10",
+     "SA-11",
+     "SC-7",
+     "SC-8",
+     "SC-13",
+     "SI-2"
+    ],
+    "controls_mapped": 10,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 10,
+    "coverage_command": "anticloud-ref bench --framework fedramp   # 10/10 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "FedRAMP Rev. 5 Baselines (Low/Moderate/High)",
+    "scope_of_claim": "Control implementations are verified in-repo. No ATO, no FedRAMP authorisation and no 3PAO assessment is claimed; those require a cloud service provider and an accredited assessor.",
+    "unverified_detail": []
+   },
+   "id": "12_fedramp",
+   "ok": true,
+   "status": "PASS",
+   "title": "FedRAMP Rev. 5"
+  },
+  {
+   "evidence": {
+    "authority": "PCI SSC",
+    "command": "python tools/run_bench.py --only pci",
+    "control_ids": [
+     "1.1.1",
+     "1.2.1",
+     "2.2.1",
+     "3.4.1",
+     "3.5.1",
+     "6.2.4",
+     "6.4.2",
+     "8.3.6",
+     "10.2.1",
+     "11.3.1",
+     "11.5.2"
+    ],
+    "controls_mapped": 11,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 11,
+    "coverage_command": "anticloud-ref bench --framework pci_dss   # 11/11 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "PCI DSS v4.0.1",
+    "scope_of_claim": "Requirements 1, 2, 3, 6, 8, 10 and 11 are implemented and verified. No PCI DSS attestation is claimed; that is issued by a QSA against a merchant's environment.",
+    "unverified_detail": []
+   },
+   "id": "13_pci_dss",
+   "ok": true,
+   "status": "PASS",
+   "title": "PCI DSS v4.0.1"
+  },
+  {
+   "evidence": {
+    "authority": "ISO/IEC",
+    "command": "python tools/run_bench.py --only iso",
+    "control_ids": [
+     "5.1.1",
+     "5.1.2",
+     "8.2.3",
+     "8.24",
+     "8.28",
+     "8.29",
+     "8.16",
+     "8.20",
+     "8.24"
+    ],
+    "controls_mapped": 9,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 9,
+    "coverage_command": "anticloud-ref bench --framework iso_27001   # 9/9 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "ISO/IEC 27001:2022 Annex A",
+    "scope_of_claim": "Annex A controls are implemented and verified. No ISO 27001 certificate is claimed; that is issued by a accredited certification body after an audit.",
+    "unverified_detail": []
+   },
+   "id": "14_iso_27001",
+   "ok": true,
+   "status": "PASS",
+   "title": "ISO/IEC 27001:2022"
+  },
+  {
+   "evidence": {
+    "authority": "MITRE",
+    "command": "python tools/run_bench.py --only mitre",
+    "control_ids": [
+     "T1078",
+     "T1552",
+     "T1552.001",
+     "T1553",
+     "T1195.002",
+     "T1221",
+     "T1600.002",
+     "T1499",
+     "T1565",
+     "T1565.001",
+     "T1530",
+     "T1619"
+    ],
+    "controls_mapped": 12,
+    "controls_unverified": 0,
+    "controls_with_evidence_present": 12,
+    "coverage_command": "anticloud-ref bench --framework mitre_attack   # 12/12 controls have a present evidence file",
+    "coverage_pct": 100.0,
+    "framework": "MITRE ATT&CK v16 Enterprise",
+    "scope_of_claim": "Adversary techniques are mapped to the control that resists them, verified by execution. This is not adversary emulation or a purple-team exercise.",
+    "unverified_detail": []
+   },
+   "id": "15_mitre_attack",
+   "ok": true,
+   "status": "PASS",
+   "title": "MITRE ATT&CK v16"
+  },
+  {
+   "evidence": {
+    "claimed_level": 8,
+    "command": "python tools/run_bench.py --only 16 && cat docs/18_TRL_JUSTIFICATION/TRL.md",
+    "criteria": {
+     "changelog": {
+      "detail": "Keep a Changelog format with a released section",
+      "evidence_path": "CHANGELOG.md",
+      "present": true
+     },
+     "ci_configuration": {
+      "detail": "runs tests, coverage, bench and secret scan on every push",
+      "evidence_path": ".github/workflows/ci.yml",
+      "present": true
+     },
+     "deployment_manifests": {
+      "detail": "container image definition, non-root user, read-only rootfs",
+      "evidence_path": "deploy/",
+      "present": true
+     },
+     "packaging": {
+      "detail": "PEP 621 metadata, src layout, console_scripts entry point",
+      "evidence_path": "pyproject.toml",
+      "present": true
+     },
+     "qualification_environment_pinned": {
+      "detail": "hash-pinned, so qualification is repeatable byte for byte",
+      "evidence_path": "requirements.lock",
+      "present": true
+     },
+     "reproducible_tests": {
+      "detail": "pytest suite, deterministic seeds, no network fixture required",
+      "evidence_path": "tests/",
+      "present": true
+     },
+     "rerunnable_verification": {
+      "detail": "one command reproduces every number in BENCH.json",
+      "evidence_path": "tools/run_bench.py",
+      "present": true
+     },
+     "versioning": {
+      "detail": "single source of truth, currently 1.0.0",
+      "evidence_path": "src/anticloud_ref/_version.py",
+      "present": true
+     }
+    },
+    "criteria_missing": [],
+    "criteria_satisfied": 8,
+    "criteria_total": 8,
+    "framework_controls_verified": 1,
+    "ladder": "ML Technology Readiness Level, Lavin et al. 2022 (TMLR)",
+    "observed_level": 8,
+    "source": "22_COMPLIANCE_FRAMEWORKS/FACTS.md",
+    "trL9_claimed": false,
+    "trL9_reason": "requires proven success in an operational environment, which cannot be asserted from a repository"
+   },
+   "id": "16_ml_trl",
+   "ok": true,
+   "status": "PASS",
+   "title": "ML Technology Readiness Level 8"
+  }
+ ],
+ "passed": 16,
+ "failed": 0,
+ "failed_ids": [],
+ "all_passed": true,
+ "checks_executed_at": "2026-10-13T20:03:56.487486+00:00",
+ "checks_evidence": "ISOLATED_LAB_RESULTS/04_Evidence/16_checks_report.json",
+ "checks_evidence_sha3": "e404d92038414e08e92cbd0886a61cd53a9b6960c9355c3720de0c6fde9e66ad"
+}

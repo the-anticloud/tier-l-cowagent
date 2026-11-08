@@ -1,0 +1,193 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:aa9ef533-8c44-55cf-bb59-d017a89fe04f",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-13T20:03:50Z",
+    "component": {
+      "type": "application",
+      "name": "L_COWAGENT",
+      "version": "0106b76830c7",
+      "bom-ref": "pkg:generic/anticloud/L_COWAGENT@0106b76830c7",
+      "purl": "pkg:generic/anticloud/L_COWAGENT@0106b76830c7",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "0106b76830c707effe48cd3da384dda38cbed92e"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/camel-ai/camel.git"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "mcp",
+      "version": ">=1.3.0",
+      "purl": "pkg:pypi/mcp@1.3.0",
+      "bom-ref": "pypi/mcp@>=1.3.0"
+    },
+    {
+      "type": "library",
+      "name": "tiktoken",
+      "version": ">=0.7.0",
+      "purl": "pkg:pypi/tiktoken@0.7.0",
+      "bom-ref": "pypi/tiktoken@>=0.7.0"
+    },
+    {
+      "type": "library",
+      "name": "colorama",
+      "version": ">=0.4.6",
+      "purl": "pkg:pypi/colorama@0.4.6",
+      "bom-ref": "pypi/colorama@>=0.4.6"
+    },
+    {
+      "type": "library",
+      "name": "jsonschema",
+      "version": ">=4",
+      "purl": "pkg:pypi/jsonschema@4",
+      "bom-ref": "pypi/jsonschema@>=4"
+    },
+    {
+      "type": "library",
+      "name": "docstring-parser",
+      "version": ">=0.17.0",
+      "purl": "pkg:pypi/docstring-parser@0.17.0",
+      "bom-ref": "pypi/docstring-parser@>=0.17.0"
+    },
+    {
+      "type": "library",
+      "name": "pydantic",
+      "version": ">=2.10.6",
+      "purl": "pkg:pypi/pydantic@2.10.6",
+      "bom-ref": "pypi/pydantic@>=2.10.6"
+    },
+    {
+      "type": "library",
+      "name": "httpx",
+      "version": ">=0.28.0",
+      "purl": "pkg:pypi/httpx@0.28.0",
+      "bom-ref": "pypi/httpx@>=0.28.0"
+    },
+    {
+      "type": "library",
+      "name": "psutil",
+      "version": ">=5.9.8",
+      "purl": "pkg:pypi/psutil@5.9.8",
+      "bom-ref": "pypi/psutil@>=5.9.8"
+    },
+    {
+      "type": "library",
+      "name": "openai",
+      "version": ">=1.86.0",
+      "purl": "pkg:pypi/openai@1.86.0",
+      "bom-ref": "pypi/openai@>=1.86.0"
+    },
+    {
+      "type": "library",
+      "name": "websockets",
+      "version": ">=13.0",
+      "purl": "pkg:pypi/websockets@13.0",
+      "bom-ref": "pypi/websockets@>=13.0"
+    },
+    {
+      "type": "library",
+      "name": "astor",
+      "version": ">=0.8.1",
+      "purl": "pkg:pypi/astor@0.8.1",
+      "bom-ref": "pypi/astor@>=0.8.1"
+    },
+    {
+      "type": "library",
+      "name": "pillow",
+      "version": ">=10.0.0",
+      "purl": "pkg:pypi/pillow@10.0.0",
+      "bom-ref": "pypi/pillow@>=10.0.0"
+    },
+    {
+      "type": "library",
+      "name": "google-search-results",
+      "version": ">=2.4.2",
+      "purl": "pkg:pypi/google-search-results@2.4.2",
+      "bom-ref": "pypi/google-search-results@>=2.4.2"
+    },
+    {
+      "type": "library",
+      "name": "pyyaml",
+      "version": ">=6.0.3",
+      "purl": "pkg:pypi/pyyaml@6.0.3",
+      "bom-ref": "pypi/pyyaml@>=6.0.3"
+    },
+    {
+      "type": "library",
+      "name": "playwright",
+      "version": "^1.57.0",
+      "purl": "pkg:npm/playwright@^1.57.0",
+      "bom-ref": "npm/playwright@^1.57.0"
+    },
+    {
+      "type": "library",
+      "name": "ws",
+      "version": "^8.14.0",
+      "purl": "pkg:npm/ws@^8.14.0",
+      "bom-ref": "npm/ws@^8.14.0"
+    },
+    {
+      "type": "library",
+      "name": "@types/jest",
+      "version": "^30.0.0",
+      "purl": "pkg:npm/@types/jest@^30.0.0",
+      "bom-ref": "npm/@types/jest@^30.0.0"
+    },
+    {
+      "type": "library",
+      "name": "@types/node",
+      "version": "^25.0.1",
+      "purl": "pkg:npm/@types/node@^25.0.1",
+      "bom-ref": "npm/@types/node@^25.0.1"
+    },
+    {
+      "type": "library",
+      "name": "@types/ws",
+      "version": "^8.5.0",
+      "purl": "pkg:npm/@types/ws@^8.5.0",
+      "bom-ref": "npm/@types/ws@^8.5.0"
+    },
+    {
+      "type": "library",
+      "name": "jest",
+      "version": "^30.2.0",
+      "purl": "pkg:npm/jest@^30.2.0",
+      "bom-ref": "npm/jest@^30.2.0"
+    },
+    {
+      "type": "library",
+      "name": "typescript",
+      "version": "^5.8.3",
+      "purl": "pkg:npm/typescript@^5.8.3",
+      "bom-ref": "npm/typescript@^5.8.3"
+    },
+    {
+      "type": "library",
+      "name": "ts-jest",
+      "version": "^29.4.6",
+      "purl": "pkg:npm/ts-jest@^29.4.6",
+      "bom-ref": "npm/ts-jest@^29.4.6"
+    }
+  ]
+}
